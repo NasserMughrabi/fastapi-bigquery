@@ -33,5 +33,5 @@ jobs:
         gcloud run deploy fastapi-bigquery-microservice \
           --image ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/my-repository/fastapi-bigquery-microservice \
           --platform managed \
-          --region us-central1 \
+          --region ${{ secrets.GCP_REGION }} \
           --allow-unauthenticated
