@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"FastAPI & Bigquery": "Microservice"}
+    return {"FastAPI & Bigquery": "Microservice, Testing CI/CD using Github Actions"}
 
 
 # Code -> Comment -> Test -> Refactor -> Document
