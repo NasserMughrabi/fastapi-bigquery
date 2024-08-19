@@ -1,0 +1,42 @@
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VS Code settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables file
+.env
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+*.db
+
+# Build and distribution directories
+build/
+dist/
+*.egg-info/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
