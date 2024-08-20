@@ -1,3 +1,9 @@
+# secrets
+google-credentials.json
+
+# docker-compose
+docker-compose.yml
+
 # Virtual environment
 .venv/
 
