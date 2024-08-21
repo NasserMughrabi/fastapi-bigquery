@@ -38,6 +38,6 @@ jobs:
           --image ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/fastapi-repo/fastapi-bigquery-microservice \
           --platform managed \
           --region ${{ secrets.GCP_REGION }} \
-          --allow-unauthenticated
+          --allow-unauthenticated \
           --set-env-vars "GCP_PROJECT_ID=${{ secrets.GCP_PROJECT_ID }}"
 
