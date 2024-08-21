@@ -4,7 +4,7 @@ from google.cloud import bigquery
 from pydantic import BaseModel
 from google.cloud import bigquery
 from google.api_core.exceptions import NotFound
-from models.itemsModel import Item
+from app.api.models.item import Item
 
 # Initialize BigQuery client
 client = bigquery.Client()
@@ -36,7 +36,7 @@ def create_items_table():
         print(f"Failed to check if table exists: {e}")
 
 # Function to add an item to the BigQuery table
-def insert_item(item: Item):
+def create_item(item: Item):
     # Create items table if it doesn't exist
     create_items_table()
 
