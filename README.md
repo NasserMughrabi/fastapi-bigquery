@@ -1,3 +1,3 @@
 ## Architecture
 
-![Alt text](arch.jpeg)
+![Alt text](archi.jpeg)
