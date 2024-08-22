@@ -53,7 +53,6 @@ def create_item(item: Item):
     return {"message": "Item successfully inserted"}
 
 def get_items():
-    print(f"Project ID: {PROJECT_ID}")
     table_id = f"{PROJECT_ID}.fastapi.items"
 
     # SQL query to fetch all items from the table
